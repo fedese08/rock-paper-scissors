@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+#rps {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: rgb(59, 148, 249);
+}
+
+#main-screen {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#main-screen img {
+    height: 350px;
+    width: 300px;
+}
+
+.choices {
+    width: 300px;
+    padding: 1em .5em;
+    font-size: .5em;
+    font-weight: bold;
+    background-color: rgb(249, 211, 88);
+    border: none;
+    border-radius: 5px;
+    /* color: #fff; */
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.finalChoices {
+    display: flex;
+    gap: 6em;
+    margin:  2em 0;
+    text-transform: uppercase;
+}
+
+#playerChoice {
+    padding: 1em;
+    height: 350px;
+    width: 300px;
+}
+#gameChoice {
+    padding: 1em;
+    height: 350px;
+    width: 300px;
+}
+
+#game-over {
+    margin-top: 2em;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#game-over button {
+    padding: 1em;
+    font-size: .5em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(59, 148, 249);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
